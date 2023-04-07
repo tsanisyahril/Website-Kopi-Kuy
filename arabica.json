@@ -1,0 +1,23 @@
+[
+    {
+        "foto": "images/coffe/SB cl.png",
+        "nama": "Caramel Latte",
+        "size": "60 Gram",
+        "harga": "150.000",
+        "link": "https://tokopedia.com/kopiiawodia"
+    },
+    {
+        "foto": "images/coffe/SB cafL.png",
+        "nama": "Caffe Latte",
+        "size": "60 Gram",
+        "harga": "150.000",
+        "link": "https://tokopedia.com/kopiiawodia"
+    },
+    {
+        "foto": "images/coffe/SB vl.png",
+        "nama": " Vanilla Latte",
+        "size": "60 Gram",
+        "harga": "150.000",
+        "link": "https://tokopedia.com/kopiiawodia"
+    }
+]
