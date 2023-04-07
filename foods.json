@@ -1,0 +1,48 @@
+{
+    "data": [
+        {
+            "foto": "images/makanan/croffle.jpg",
+            "nama": "Croffle",
+            "size": "ppn 5%",
+            "harga": "Rp. 53.900",
+            "link": "https://tokopedia.com/kopiiawodia"
+        },
+        {
+            "foto": "images/makanan/pancake.jpg",
+            "nama": "Pancake",
+            "size": "ppn 5%",
+            "harga": "Rp. 51.900", 
+            "link": "https://tokopedia.com/kopiiawodia"
+        },
+        {
+            "foto": "images/makanan/sandwich.jpg",
+            "nama": "Sandwich",
+            "size": "ppn 5%",
+            "harga": "Rp. 52.900",
+            "link": "https://tokopedia.com/kopiiawodia"
+        },
+        {
+            "foto": "images/makanan/kentang.jpg",
+            "nama": "French Fries",
+            "size": "ppn 5%",
+            "harga": "Rp. 50.900",
+            "link": "https://tokopedia.com/kopiiawodia"
+        },
+        {
+            "foto": "images/makanan/spaghetti.jpg",
+            "nama": "Spaghetti",
+            "size": "ppn 5%",
+            "harga": "Rp. 55.900",
+            "link": "https://tokopedia.com/kopiiawodia"
+        },
+        {
+            "foto": "images/makanan/nasi.jpg",
+            "nama": "Fried Rice",
+            "size": "ppn 5%",
+            "harga": "Rp. 54.900",
+            "link": "https://tokopedia.com/kopiiawodia"
+        }
+
+
+    ]
+}

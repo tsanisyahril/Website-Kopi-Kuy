@@ -59,8 +59,10 @@
                     <option selected>-</option>
                     <option value="arabica">Arabica</option>
                     <option value="robusta">Robusta</option>
+                    <option value="starbucks">Starbuck</option>
+                    <option value="foods">Foods</option>
                 </select>
-                <label for="select_kopi">Pilih Jenis Kopi</label>
+                <label for="select_kopi">MENU</label>
             </div>
 
             <div id="baris_produk" class="row">
@@ -185,10 +187,18 @@
 
     <script src="js/jquery-3.6.3.min.js"></script>
     <script>
-         var api = "https://rikikurnia.com/prakerja/api/produk/"
+        var api = "https://rikikurnia.com/prakerja/api/produk/"
         select_kopi.onchange = function () {
             var kopi_yang_dipilih = this.value
+
             var url = api + kopi_yang_dipilih
+
+            if(kopi_yang_dipilih == "starbucks") {
+                url = "starbucks.json"
+            }
+            if(kopi_yang_dipilih == "foods") {
+                url = "foods.json"
+            }
 
             baris_produk.innerHTML = ""
             $.get(url).then(function (respon) {
@@ -201,8 +211,8 @@
                                             <h5 id="nama_kopi" class="card-title">${item.nama}</h5>
                                             <div class="row my-4">
                                                 <div class="col">
-                                                    ${item.size}
-                                                </div>
+                                                   ${item.size}
+                                                </div>                                
                                                 <div class="col text-primary fw-bold">
                                                     ${item.harga}
                                                 </div>

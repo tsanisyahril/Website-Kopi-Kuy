@@ -219,3 +219,9 @@
 </body>
 
 </html>
+
+
+produk.html(item size)
+<div class="col">
+   ${item.size}
+</div>
